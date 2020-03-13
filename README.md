@@ -12,7 +12,7 @@ adjustments have been made to better suit the Reason ecosystem.
 
 Here's a full example usage of getting accounts
 
-```reasonml
+```reason
 open Actual;
 
 let api = Api.make;
@@ -35,7 +35,7 @@ api->Run.withBudget("YOUR-BUDGET-ID", run);
 
 ### or using `reason-promise`
 
-```reasonml
+```reason
 open Actual;
 
 let api = Api.make;
