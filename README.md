@@ -1,5 +1,8 @@
 # ReasonML bindings for Actual API
 
+[![npm version](https://badge.fury.io/js/re-actual.svg)](https://badge.fury.io/js/re-actual)
+[![](https://github.com/believer/telefonnummer/workflows/Release/badge.svg)](https://github.com/believer/telefonnummer/actions?workflow=Release)
+
 This package contains ReasonML (BuckleScript) bindings for the excellent Node
 API of [Actual](https://actualbudget.com/),
 [`@actual-app/api`](https://www.npmjs.com/package/@actual-app/api).
