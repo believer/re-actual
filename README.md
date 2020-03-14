@@ -17,38 +17,20 @@ Here's a full example usage of getting accounts
 
 ```reason
 open Actual;
+open Js.Promise;
 
 let api = Api.make;
 
 let run = () => {
-  Js.Promise.(
     api->Accounts.get
     |> then_(accounts => {
          Js.log(accounts);
 
          resolve();
        })
-    |> ignore
-  );
 };
 
 api->Run.withBudget("YOUR-BUDGET-ID", run);
 
 ```
 
-### or using `reason-promise`
-
-```reason
-open Actual;
-
-let api = Api.make;
-
-let run = () => {
-  Api.make
-  ->Accounts.get
-  ->Promise.Js.fromBsPromise
-  ->Promise.Js.get(accounts => Js.log(accounts));
-};
-
-api->Run.withBudget("YOUR-BUDGET-ID", run);
-```
