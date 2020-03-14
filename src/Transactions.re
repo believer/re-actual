@@ -13,7 +13,13 @@ external get: (Api.t, id, date, date) => Js.Promise.t(array(Transaction.t)) =
 external filter: (Api.t, id, string) => Js.Promise.t(array(Transaction.t)) =
   "filterTransactions";
 
+type importResult('error) = {
+  added: array(string),
+  errors: 'error,
+  updated: array(string),
+};
+
 [@bs.send]
 external import:
-  (Api.t, id, array(Transaction.t)) => Js.Promise.t(array(string)) =
+  (Api.t, id, array(Transaction.t)) => Js.Promise.t(importResult('error)) =
   "importTransactions";
