@@ -21,7 +21,7 @@ Add `re-actual` in `bsconfig.json`
 
 ```
 {
-  "dependencies": ["bs-let/ppx"]
+  "dependencies": ["re-actual"]
 }
 ```
 
