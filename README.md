@@ -11,6 +11,20 @@ API documentation is best found in the
 [official documentation](https://actualbudget.com/docs/developers/API/). Some
 adjustments have been made to better suit the Reason ecosystem.
 
+## Get started
+
+```
+npm install re-actual
+```
+
+Add `re-actual` in `bsconfig.json`
+
+```
+{
+  "dependencies": ["bs-let/ppx"]
+}
+```
+
 ## Example
 
 Here's a full example usage of getting accounts
@@ -33,4 +47,3 @@ let run = () => {
 api->Run.withBudget("YOUR-BUDGET-ID", run);
 
 ```
-
