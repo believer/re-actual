@@ -1,3 +1,16 @@
+# [3.0.0](https://github.com/believer/re-actual/compare/v2.0.0...v3.0.0) (2020-07-06)
+
+
+### Features
+
+* update to bucklescript 8.1 syntax ([3e09174](https://github.com/believer/re-actual/commit/3e09174cb3fc7950bdc2f9182fbd12b0ca3c086e))
+
+
+### BREAKING CHANGES
+
+* Renames `Transactions.import` to
+`Transactions.importAll` due to reserved keyword collision
+
 # [2.0.0](https://github.com/believer/re-actual/compare/v1.0.1...v2.0.0) (2020-03-14)
 
 
