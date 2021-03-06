@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/believer/re-actual/compare/v3.0.0...v4.0.0) (2021-03-06)
+
+
+### Features
+
+* update transaction api ([06718e0](https://github.com/believer/re-actual/commit/06718e0efd817937391c72bf90ef97c0ec181ed3))
+
+
+### BREAKING CHANGES
+
+* Change naming according to Actual 0.0.129 API
+
 # [3.0.0](https://github.com/believer/re-actual/compare/v2.0.0...v3.0.0) (2020-07-06)
 
 
