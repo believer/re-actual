@@ -1,5 +1,5 @@
 {
-  "name": "actual",
+  "name": "re-actual",
   "version": "0.0.0",
   "sources": [
     {
@@ -17,4 +17,3 @@
   },
   "refmt": 3
 }
-
