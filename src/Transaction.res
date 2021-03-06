@@ -1,32 +1,17 @@
 open CommonTypes
 
-type subtransaction = {
-  account_id: string,
+type rec t = {
+  account: string,
   amount: option<float>,
-  category_id: option<string>,
+  category: option<string>,
   date: string,
   id: option<string>,
   imported_id: option<string>,
   imported_payee: option<string>,
   notes: option<string>,
+  payee_name: option<string>,
   payee: option<string>,
-  payee_id: option<string>,
-  transfer_id: option<string>,
-}
-
-
-type t = {
-  account_id: string,
-  amount: option<float>,
-  category_id: option<string>,
-  date: string,
-  id: option<string>,
-  imported_id: option<string>,
-  imported_payee: option<string>,
-  notes: option<string>,
-  payee: option<string>,
-  payee_id: option<string>,
-  subtransactions: option<array<subtransaction>>,
+  subtransactions: option<array<t>>,
   transfer_id: option<string>,
 }
 
