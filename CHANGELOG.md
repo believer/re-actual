@@ -1,3 +1,10 @@
+## [4.0.1](https://github.com/believer/re-actual/compare/v4.0.0...v4.0.1) (2021-03-06)
+
+
+### Bug Fixes
+
+* bsconfig naming ([846d220](https://github.com/believer/re-actual/commit/846d2207c0f0ad9d4c1dfb6d1131e6f000fca932))
+
 # [4.0.0](https://github.com/believer/re-actual/compare/v3.0.0...v4.0.0) (2021-03-06)
 
 
